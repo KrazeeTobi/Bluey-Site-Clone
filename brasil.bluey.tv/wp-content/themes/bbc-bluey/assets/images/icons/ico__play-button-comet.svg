@@ -1,0 +1,25 @@
+<svg id="Layer_1" 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" enable-background="new 0 0 40 40">
+    <style>.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#fff}</style>
+    <g id="Symbols">
+        <g id="video-card" transform="translate(-20 -204)">
+            <g id="Group-6" transform="translate(20 204)">
+                <circle id="Oval" cx="20" cy="20" r="20" fill-rule="evenodd" clip-rule="evenodd" fill="#5a5a87"/>
+                <path id="Fill-1" class="st1" d="M26.65 18.95l-9.73-6.48a1.25 1.25 0 0 0-1.94 1.05v12.97c0 1.01 1.14 1.6 1.94 1.05l9.73-6.48c.76-.51.76-1.61 0-2.11"/>
+                <g id="Group-5">
+                    <defs>
+                        <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
+                            <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
+                        </filter>
+                    </defs>
+                    <mask maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40" id="mask-2_1_">
+                        <g filter="url(#Adobe_OpacityMaskFilter)">
+                            <path id="path-1_1_" class="st1" d="M0 0h40v40H0z"/>
+                        </g>
+                    </mask>
+                    <path id="Fill-3" d="M20 36.88C10.69 36.88 3.12 29.3 3.12 20S10.69 3.12 20 3.12 36.88 10.69 36.88 20 29.31 36.88 20 36.88M20 0C8.97 0 0 8.97 0 20s8.97 20 20 20 20-8.97 20-20S31.03 0 20 0" mask="url(#mask-2_1_)" fill-rule="evenodd" clip-rule="evenodd" fill="#fff"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
