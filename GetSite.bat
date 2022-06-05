@@ -31,6 +31,7 @@ del jogue.1
 cd ..
 cd france.bluey.tv
 del jouer.1
+del jouer.2
 cd ..
 cd www.bluey.tv
 del characters.1
