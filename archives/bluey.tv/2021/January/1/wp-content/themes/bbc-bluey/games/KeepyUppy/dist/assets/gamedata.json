@@ -1,0 +1,437 @@
+{
+    "titleConfig": {
+        "title": {
+            "text": "KEEPY UPPY",
+            "font": "HelloHeadline",
+            "size": "88"
+        },
+        "images": [
+            {
+                "name": "bingo_title",
+                "x": 1010,
+                "y": 430,
+                "scale": 1
+            },
+            {
+                "name": "bluey_title",
+                "x": 150,
+                "y": 400,
+                "scale": 1
+            },
+            {
+                "name": "green_balloon",
+                "x": 350,
+                "y": 500,
+                "scale": 1
+            },
+            {
+                "name": "red_balloon",
+                "x": 940,
+                "y": 160,
+                "scale": 1
+            },
+            {
+                "name": "yellow_balloon",
+                "x": 800,
+                "y": 530,
+                "scale": 1
+            },
+            {
+                "name": "bluey_logo",
+                "x": 568,
+                "y": 140,
+                "scale": 1
+            }
+        ]
+    },
+    "soundConfig": [
+        {
+            "name": "sting",
+            "file": "theme_sting",
+            "volume": 0.75
+        },
+        {
+            "name": "collide",
+            "file": "ballooncollide",
+            "volume": 0.75
+        },
+        {
+            "name": "hit",
+            "file": "balloonhit",
+            "volume": 0.75,
+            "variants": 3
+        },
+        {
+            "name": "pop",
+            "file": "balloonpop",
+            "volume": 0.75
+        },
+        {
+            "name": "click",
+            "file": "ui_click",
+            "volume": 0.75
+        },
+        {
+            "name": "bgmusic",
+            "file": "bg_music1",
+            "volume": 0.5
+        },
+        {
+            "name": "transition",
+            "file": "leaf_blower"
+        },
+        {
+            "name": "bluey_giggle1",
+            "file": "bluey_laugh_001"
+        },
+        {
+            "name": "bluey_giggle2",
+            "file": "bluey_laugh_004"
+        },
+        {
+            "name": "bluey_ooo",
+            "file": "bluey_oooh_002"
+        },
+        {
+            "name": "bingo_giggle1",
+            "file": "bingo_giggle1"
+        }
+    ],
+    "idleSFX": [
+        "mum_wackadoo_001",
+        "mum_hmm_001",
+        "mum_ohh_001",
+        "mum_ohh_002",
+        "mum_whoah_001"
+    ],
+    "gameConfig": {
+        "font": "HelloHeadline",
+        "incrementThreshold": 20,
+        "incrementAmount": 5,
+        "defaultCount": 10,
+        "levelCount":{
+          "1":5,
+          "2":7,
+          "3":7,
+          "4":10
+        },
+        "characters": [
+            {
+                "spine": "Bingo",
+                "skin": "Bingo",
+                "animations": {
+                    "default": "idle",
+                    "celebrate": [
+                        "celebration"
+                    ],
+                    "happy": [
+                        "wave",
+                        "giggle"
+                    ],
+                    "idles": [
+                        "look_right",
+                        "look_down",
+                        "idle",
+                        "blink",
+                        "look_up",
+                        "look_left"
+                    ],
+                    "sad": [
+                        "idle"
+                    ]
+                },
+                "sfx": {
+                    "giggle": "bingo_giggle1"
+                }
+            },
+            {
+                "spine": "Dad",
+                "skin": "Dad",
+                "animations": {
+                    "default": "idle",
+                    "celebrate": [
+                        "leafblower"
+                    ],
+                    "happy": [
+                        "wave",
+                        "hands_on_hips"
+                    ],
+                    "idles": [
+                        "blink",
+                        "look_right",
+                        "look_left",
+                        "look_down",
+                        "idle",
+                        "look_up"
+                    ],
+                    "sad": [
+                        "hands_on_hips"
+                    ]
+                },
+                "sfx": {}
+            },
+            {
+                "spine": "Bluey",
+                "skin": "bluey",
+                "animations": {
+                    "default": "idle",
+                    "celebrate": [
+                        "celebration"
+                    ],
+                    "happy": [
+                        "giggle",
+                        "oh",
+                        "anticipation"
+                    ],
+                    "idles": [
+                        "blink",
+                        "look_right",
+                        "look_left",
+                        "look_down",
+                        "look_up"
+                    ],
+                    "sad": [
+                        "giggle"
+                    ]
+                },
+                "sfx": {
+                    "giggle": "bluey_giggle1",
+                    "oh": "bluey_ooo"
+                }
+            }
+        ],
+        "backgrounds": [
+            {
+                "name": "playroom",
+                "file": "playroom.png",
+                "transitionDirection": -1,
+                "characters": [
+                    {
+                        "name": "Bluey",
+                        "posX": 1028,
+                        "posY": 510,
+                        "scale": 0.205,
+                        "direction": -1
+                    },
+                    {
+                        "name": "Bingo",
+                        "posX": 113,
+                        "posY": 510,
+                        "scale": 0.2,
+                        "direction": 1
+                    },
+                    {
+                        "name": "Dad",
+                        "posX": 888,
+                        "posY": 500,
+                        "scale": 0.2,
+                        "direction": -1,
+                        "depth": -1
+                    }
+                ]
+            },
+            {
+                "name": "lounge",
+                "file": "lounge.png",
+                "transitionDirection": -1,
+                "characters": [
+                    {
+                        "name": "Bluey",
+                        "posX": 90,
+                        "posY": 545,
+                        "scale": 0.21,
+                        "direction": 1
+                    },
+                    {
+                        "name": "Dad",
+                        "posX": 1028,
+                        "posY": 510,
+                        "scale": 0.2,
+                        "direction": -1,
+                        "depth": -1
+                    },
+                    {
+                        "name": "Bingo",
+                        "posX": 898,
+                        "posY": 510,
+                        "scale": 0.2,
+                        "direction": -1
+                    }
+                ]
+            },
+            {
+                "name": "kitchen",
+                "file": "kitchen.png",
+                "transitionDirection": 1,
+                "characters": [
+                    {
+                        "name": "Bluey",
+                        "posX": 888,
+                        "posY": 490,
+                        "scale": 0.2,
+                        "direction": -1
+                    },
+                    {
+                        "name": "Bingo",
+                        "posX": 1028,
+                        "posY": 490,
+                        "scale": 0.2,
+                        "direction": -1
+                    },
+                    {
+                        "name": "Dad",
+                        "posX": 98,
+                        "posY": 510,
+                        "scale": 0.2,
+                        "direction": 1
+                    }
+                ]
+            },
+            {
+                "name": "backyard",
+                "file": "backyard.png",
+                "transitionDirection": 1,
+                "characters": [
+                    {
+                        "name": "Bluey",
+                        "posX": 1060,
+                        "posY": 495,
+                        "scale": 0.2,
+                        "direction": -1
+                    },
+                    {
+                        "name": "Dad",
+                        "posX": 98,
+                        "posY": 480,
+                        "scale": 0.2,
+                        "direction": 1,
+                        "depth": -1
+                    },
+                    {
+                        "name": "Bingo",
+                        "posX": 228,
+                        "posY": 480,
+                        "scale": 0.2,
+                        "direction": 1
+                    }
+                ]
+            }
+        ],
+        "balloons": {
+            "colours": [
+                "0xff5c65",
+                "0x8f5cff",
+                "0xffe65c",
+                "0x61d16c"
+            ],
+            "physics": {
+                "floor": 25,
+                "gravity": 0.045,
+                "impulseX": 50,
+                "impulseY": -15,
+                "dragX": 0.95,
+                "dragY": 0.9,
+                "angDrag": 0.975,
+                "bounce": 1.75,
+                "swayAmp": 1,
+                "swaySpeed": 0.0015,
+                "swayAcc": 5,
+                "collideBounce": 1.85,
+                "heightBonus": 30
+            },
+            "popConfig": {
+                "name": "balloonPop",
+                "frames": [
+                    "pop1",
+                    "pop2",
+                    "pop3",
+                    "pop4"
+                ],
+                "frameRate": 18
+            }
+        }
+    },
+    "spineData": [
+        {
+            "key": "Bluey",
+            "key_1x": "Bluey",
+            "atlas": "keepy_uppy.atlas",
+            "atlas_1x": "1x/keepy_uppy.atlas",
+            "data": "bluey.json",
+            "data_1x": "1x/bluey.json"
+        },
+        {
+            "key": "Bingo",
+            "key_1x": "Bingo",
+            "atlas": "keepy_uppy.atlas",
+            "atlas_1x": "1x/keepy_uppy.atlas",
+            "data": "bingo.json",
+            "data_1x": "1x/bingo.json"
+        },
+        {
+            "key": "Dad",
+            "key_1x": "Dad",
+            "atlas": "keepy_uppy.atlas",
+            "atlas_1x": "1x/keepy_uppy.atlas",
+            "data": "dad.json",
+            "data_1x": "1x/dad.json"
+        }
+    ],
+    "helpConfig": {
+        "steps": [
+            {
+                "image": "help1",
+                "anims": [
+                    {
+                        "type": "move",
+                        "easing": "Quad.easeInOut",
+                        "time": 10,
+                        "target": {
+                            "x": -0.18,
+                            "y": 0.08
+                        }
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Back.easeOut",
+                        "time": 750,
+                        "scale": 1,
+                        "delay": 500
+                    },
+                    {
+                        "type": "tap",
+                        "easing": "Quad.easeInOut",
+                        "time": 200
+                    },
+                    {
+                        "type": "move",
+                        "easing": "Quad.easeInOut",
+                        "time": 1250,
+                        "target": {
+                            "x": 0.07,
+                            "y": 0.32
+                        }
+                    },
+                    {
+                        "type": "tap",
+                        "easing": "Quad.easeInOut",
+                        "time": 200
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Back.easeIn",
+                        "time": 750,
+                        "scale": 0,
+                        "delay": 500
+                    }
+                ]
+            }
+        ]
+    },
+    "endConfig": {
+        "titleCopy": {
+            "success": "Well Done!",
+            "failure": "Play Again?"
+        }
+    }
+}
