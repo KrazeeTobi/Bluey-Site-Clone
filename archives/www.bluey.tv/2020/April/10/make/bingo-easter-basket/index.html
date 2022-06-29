@@ -1,0 +1,281 @@
+<!doctype html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-AU">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-AU">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-AU">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-AU">
+<!--<![endif]-->
+
+    <head>     
+        		<!-- <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"8905349111",applicationID:"302008876"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script> -->
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="google-site-verification" content="X1KWNNI1gjZikuBC70eXoyJgZI1wq7_K4sGc2fT36wc" />
+        <title>Bingo Easter Basket | Bluey Official Website</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.bluey.tv/make/bingo-easter-basket/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Make a Bingo Easter Basket" />
+<meta property="og:description" content="All you need is an empty box!" />
+<meta property="og:url" content="https://www.bluey.tv/make/bingo-easter-basket/" />
+<meta property="og:site_name" content="Bluey Official Website" />
+<meta property="og:image" content="https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-basket-bingo-1200x630px_.jpg" />
+<meta property="og:image:secure_url" content="https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-basket-bingo-1200x630px_.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="You will need: Medium box (tissue box) Dark orange coloured paper Scissors Glue How to Make Your Bingo Easter basket: Download the craft sheet on the link below Cut the sides and top off a tissue box Glue the Bingo template around the box Glue the ears and eyebrows to the front of the box [&hellip;]" />
+<meta name="twitter:title" content="Bingo Easter Basket | Bluey Official Website" />
+<meta name="twitter:image" content="https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-basket-bingo-1200x630px_.jpg" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.bluey.tv/#website","url":"https://www.bluey.tv/","name":"Bluey Official Website","inLanguage":"en-AU","description":"BBC","potentialAction":{"@type":"SearchAction","target":"https://www.bluey.tv/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://www.bluey.tv/make/bingo-easter-basket/#primaryimage","inLanguage":"en-AU","url":"https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-holder-Bingo-940x530px.jpg","width":940,"height":531},{"@type":"WebPage","@id":"https://www.bluey.tv/make/bingo-easter-basket/#webpage","url":"https://www.bluey.tv/make/bingo-easter-basket/","name":"Bingo Easter Basket | Bluey Official Website","isPartOf":{"@id":"https://www.bluey.tv/#website"},"inLanguage":"en-AU","primaryImageOfPage":{"@id":"https://www.bluey.tv/make/bingo-easter-basket/#primaryimage"},"datePublished":"2020-04-03T16:14:02+00:00","dateModified":"2020-04-07T15:29:38+00:00"}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.bluey.tv/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://www.bluey.tv/wp-includes/css/dist/block-library/theme.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gbl-core-css-css'  href='https://www.bluey.tv/wp-content/plugins/guerrilla-block-library/build/core.css' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://www.bluey.tv/wp-content/themes/bbc-bluey/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='reset-css'  href='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/css/build/reset.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-core-css'  href='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/css/build/theme-core.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/vendor/lodash.min.js'></script>
+<script type='text/javascript'>
+window.lodash = _.noConflict();
+</script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/vendor/wp-polyfill.min.js'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://www.bluey.tv/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://www.bluey.tv/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://www.bluey.tv/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://www.bluey.tv/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/vendor/react.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/vendor/react-dom.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/escape-html.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/element.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/i18n.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/url.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/hooks.min.js'></script>
+<script type='text/javascript'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2019-10-15 21:46:45+0000","generator":"GlotPress\/2.4.0-alpha","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_AU"},"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["Media upload failed. If this is a photo or a large image, please scale it down and try again."],"The response is not a valid JSON response.":["The response is not a valid JSON response."],"An unknown error occurred.":["An unknown error occurred."]}},"comment":{"reference":"wp-includes\/js\/dist\/api-fetch.js"}} );
+</script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-includes/js/dist/api-fetch.min.js'></script>
+<script type='text/javascript'>
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://www.bluey.tv/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "ee30f981dd" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://www.bluey.tv/wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-content/plugins/guerrilla-block-library/build/frontend.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-content/plugins/guerrilla-block-library/build/global.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/css-vars-ponyfill.min.js'></script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/objectfit-polyfill.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var global = {"site_url":"https:\/\/www.bluey.tv","theme_url":"https:\/\/www.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/www.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"be61a22ae9","rest_nonce":"ee30f981dd"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/theme-global.min.js'></script>
+<link rel='https://api.w.org/' href='https://www.bluey.tv/wp-json/' />
+<meta name="country" content="US" /><meta name="city" content="SANTACLARA" /><meta name="long" content="-121.952" /><meta name="lat" content="37.3519" /><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Bluey">
+        <!-- Icons -->
+		<link rel="icon" type="image/x-icon" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/bluey-favicon-512x512.png">
+		<link rel="apple-touch-icon-precomposed" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-precomposed.png">
+		<link rel="apple-touch-icon" sizes="57x57" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon-180x180.png">
+		<link rel="apple-touch-icon" href="https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/favicons/apple-icon.png">
+     
+        <!--
+            /**
+            * @license
+            * MyFonts Webfont Build ID 3850222, 2019-12-19T19:50:14-0500
+            * 
+            * The fonts listed in this notice are subject to the End User License
+            * Agreement(s) entered into by the website owner. All other parties are 
+            * explicitly restricted from using the Licensed Webfonts(s).
+            * 
+            * You may obtain a valid license at the URLs below.
+            * 
+            * Webfont: Hello Headline by DearType
+            * URL: https://www.myfonts.com/fonts/deartype/hello-headline/regular/
+            * Copyright: Copyright (c) 2015 Veneta Rangelova. Copyright 2015. All rights reserved.
+            * Licensed pageviews: 220,000
+            * 
+            * 
+            * 
+            * © 2019 MyFonts Inc
+            */
+        -->
+            </head>
+
+	<body class="downloads-template-default single single-downloads postid-2805 wp-embed-responsive downloads-bingo-easter-basket default-theme" data-country="US" data-post-id="2805">
+        
+                <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-N9JDL9Q'
+                height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>           
+                <!-- Google Tag Manager -->
+                <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-N9JDL9Q');</script>
+                <!-- End Google Tag Manager -->
+		    		<main id="panel" class="site" aria-label="Main Content">
+<header class="wp-block-bbc-billboard menu-top detail-page " aria-label="Bingo Easter Basket"><nav class="gbl-primary-menu" role="navigation"><a class="gbl-primary-menu__logo" href="https://www.bluey.tv" aria-label="Bluey Logo">Bingo Easter Basket</a>
+            <div class="gbl-primary-menu__items">
+                <a class="gbl-primary-menu__logo--mobile" href="https://www.bluey.tv" aria-label="Bluey Logo">Bingo Easter Basket</a>                    
+                <li class="menu-item"><a href="https://www.bluey.tv" title="home" >Home</a></li><li id="menu-item-361" class="menu-item"><a href="https://www.bluey.tv/watch/">Watch</a></li>
+<li id="menu-item-362" class="menu-item"><a href="https://www.bluey.tv/make/" class="current-menu-item">Make</a></li>
+<li id="menu-item-367" class="menu-item"><a href="https://www.bluey.tv/characters/">Characters</a></li>
+<li id="menu-item-360" class="menu-item"><a href="https://www.bluey.tv/play/">Play</a></li>
+<li id="menu-item-657" class="menu-item menu-item-has-children"><a href="https://www.bluey.tv/grown-ups/">Grown-ups</a>
+<ul class="sub-menu">
+	<li id="menu-item-2212" class="menu-item"><a href="https://www.bluey.tv/grown-ups/shop/">Shop</a></li>
+</ul>
+</li>
+
+            </div>
+        <div class="mobile-menu-overlay"></div></nav><button class="mobile-menu-button" aria-label="Mobile Menu">menu</button><div class="gbl-animation">
+        <audio class="gbl-animation__audio" preload="auto">
+            <source src="#"/>
+        </audio>
+    </div>
+            <div class="gbl-blog-title">
+                <h1>Bingo Easter Basket</h1>
+                <div class="social-buttons-holder">
+                <div class="share-buttons">
+                    <span>Share: </span>
+                    <a
+                        class="icon__social icon__social--facebook__share"
+                        href="https://facebook.com/sharer/sharer.php?u=https://www.bluey.tv/make/bingo-easter-basket/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Share on Facebook">
+                        Share on Facebook
+                    </a>
+                    <a
+                        class="icon__social icon__social--twitter__share"
+                        href="https://twitter.com/intent/tweet/?text=Bingo Easter Basket&amp;url=https://www.bluey.tv/make/bingo-easter-basket/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Share on Twitter">
+                        Share on Twitter
+                    </a>
+                    <a
+                        class="icon__social icon__social--copy-link"
+                        href="https://www.bluey.tv/make/bingo-easter-basket/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Copy URL">
+                        Copy URL
+                    </a>
+                </div>
+            </div>
+            </div>
+        </header>
+
+
+<figure class="wp-block-image size-large"><img src="https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-holder-Bingo-970x615px.jpg" alt="" class="wp-image-2809" srcset="https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-holder-Bingo-970x615px.jpg 970w, https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-holder-Bingo-970x615px-300x190.jpg 300w, https://www.bluey.tv/wp-content/uploads/2020/04/Easter-egg-holder-Bingo-970x615px-768x487.jpg 768w" sizes="(max-width: 970px) 100vw, 970px" /></figure>
+
+
+
+<h2>You will need: </h2>
+
+
+
+<ul><li>Medium box (tissue box)</li><li>Dark orange coloured paper</li><li>Scissors </li><li>Glue </li></ul>
+
+
+
+<h2>How to Make Your Bingo Easter basket:</h2>
+
+
+
+<ol><li>Download the craft sheet on the link below</li><li>Cut the sides and top off a tissue box</li><li><span style="color: inherit; font-family: inherit; font-size: inherit;">Glue the Bingo template around the box</span></li><li><span style="color: inherit; font-family: inherit; font-size: inherit;">Glue the </span>ears and eyebrows to the front of the box</li><li><span style="color: inherit; font-family: inherit; font-size: inherit;">Stick your orange handle to the box</span></li><li>Get ready for an Easter egg hunt!</li></ol>
+
+
+
+<p>Enjoy your egg hunt!</p>
+
+
+
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.bluey.tv/wp-content/uploads/2020/04/Bluey-Easter-basket.pdf" target="_blank" rel="https://www.bluey.tv/wp-content/uploads/2020/04/Bluey-Easter-basket.pdf noopener noreferrer">DOWNLOAD</a></div>
+
+
+
+<div class="wp-block-bbc-share-buttons social-buttons-holder" aria-label="Collection of buttons to share on social media channels"><div class="share-buttons"><span>Share: </span><a class="icon__social icon__social--facebook__share" href="https://facebook.com/sharer/sharer.php?u=https://www.bluey.tv/make/bingo-easter-basket/" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">Share on Facebook</a><a class="icon__social icon__social--twitter__share" href="https://twitter.com/intent/tweet/?text=Bingo Easter Basket&amp;url=https://www.bluey.tv/make/bingo-easter-basket/" target="_blank" rel="noopener noreferrer" aria-label="Share on Twitter">Share on Twitter</a><a class="icon__social icon__social--copy-link" href="https://www.bluey.tv/make/bingo-easter-basket/" target="_blank" rel="noopener noreferrer" aria-label="Copy URL">Copy URL</a></div></div>
+            
+        </main><!-- /.site -->
+        <footer class="bbc__footer bbc__footer--bluey" aria-label="Footer">
+            <div class="bbc__footer--inner">
+                <div class="bbc__footer--inner-top">
+                    <div class="bbc__footer--logos">
+                        <a class="bluey-logo" href="https://www.bluey.tv/" target="_blank" rel="nofollow" style="background-image: url(https://www.bluey.tv/wp-content/uploads/2019/06/bluey-trademark-white.svg);" aria-label="Bluey">Bluey</a><a class="bbc-logo" href="https://www.bbcstudios.com/" target="_blank" rel="nofollow" style="background-image: url(https://www.bluey.tv/wp-content/uploads/2019/05/bbc-studios.svg);" aria-label="bbc-studios">bbc-studios</a><a href="https://ludostudio.com.au/" target="_blank" rel="nofollow" style="background-image: url(https://www.bluey.tv/wp-content/uploads/2019/08/ludo-logo-no-flowers-140x140.png);" aria-label="Ludo Logo 140x140">Ludo Logo 140x140</a><a href="http://www.abc.net.au/abcforkids/" target="_blank" rel="nofollow" style="background-image: url(https://www.bluey.tv/wp-content/uploads/2019/05/kids-abc.svg);" aria-label="Kids ABC">Kids ABC</a><a href="https://screenqueensland.com.au/" target="_blank" rel="nofollow" style="background-image: url(https://www.bluey.tv/wp-content/uploads/2019/05/screen-queensland.svg);" aria-label="Screen Queensland">Screen Queensland</a><a href="https://www.screenaustralia.gov.au/" target="_blank" rel="nofollow" style="background-image: url(https://www.bluey.tv/wp-content/uploads/2019/05/screen-australia.svg);" aria-label="Screen Australia">Screen Australia</a>                        
+                    </div>
+
+                    <div class="bbc__footer--share">
+                        <a class="icon__social icon__social--facebook" href="https://www.facebook.com/OfficialBlueyTV/" aria-label="Facebook Page" target="_blank" rel="nofollow">Facebook</a><a class="icon__social icon__social--instagram" href="https://www.instagram.com/officialblueytv/" aria-label="Instagram Page" target="_blank" rel="nofollow">Instagram</a><a class="icon__mail icon__social--mail" href="https://www.bluey.tv/grown-ups/bluey-newsletter/" aria-label="Subscribe">Subscribe</a>                    </div>
+                </div>
+
+                <div class="bbc__footer--info">
+                    <p>BLUEY&trade; and character logo&trade; and &copy; Ludo Studio. Licensed by BBC Studios Distribution Ltd.<br />
+<br />
+This is a commercial website from BBC Studios.<br />
+<br />
+BBC is a trademark of the British Broadcasting Corporation. Logos &copy; 1996. </p><nav class="bbc-footer__menu"><a target="_blank" rel="noopener noreferrer" href="https://www.bbcstudios.com/terms-conditions/">Terms and Conditions</a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.bbcstudios.com/privacy/">Privacy Policy</a>
+<a title="Important Notice about Cookies" href="https://www.bluey.tv/cookies-policy/">Cookies Policy</a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.bbcstudios.com/">BBC Studios</a>
+<a href="https://www.bluey.tv/site-map/">Sitemap</a>
+</nav>                </div>
+            </div>
+        </footer>
+
+        
+        <article class="bbc-cookie-message" aria-label="Cookie Message">
+            <div><p class="layerContent" tabindex="1">This site uses cookies for analytics and personalised content. By continuing to browse this site, you agree to this use. <a href="https://www.bluey.tv/cookies-policy/">Learn more</a> about our use of cookies and how to configure them.</p>
+</div>
+            <a class="btn btn__primary hide-cookie-message" aria-label="Hide Cookie Message">ok</a>
+        </article>
+        <!-- Page Loader -->
+        <div class="page-sk-loading">
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+        </div>
+    <link rel='stylesheet' id='default-theme-css'  href='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/css/build/themes/default-theme.min.css' type='text/css' media='all' />
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8905349111","applicationID":"302008876","transactionName":"ZFVbYRFYW0JXUkNQW10feFYXUFpfGUJeV1NfVQ==","queueTime":0,"applicationTime":684,"atts":"SBJYF1lCSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
