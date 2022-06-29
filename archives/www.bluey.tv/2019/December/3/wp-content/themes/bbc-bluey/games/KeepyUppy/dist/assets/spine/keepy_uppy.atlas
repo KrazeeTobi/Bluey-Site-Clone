@@ -1,0 +1,1503 @@
+
+keepy_uppy.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Bingo/Arm
+  rotate: false
+  xy: 318, 434
+  size: 27, 72
+  orig: 27, 72
+  offset: 0, 0
+  index: -1
+images/Bingo/Brow_L
+  rotate: false
+  xy: 518, 294
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+images/Bingo/Brow_R
+  rotate: false
+  xy: 518, 265
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+images/Bingo/Ear_L
+  rotate: true
+  xy: 898, 62
+  size: 67, 124
+  orig: 67, 124
+  offset: 0, 0
+  index: -1
+images/Bingo/Ear_R
+  rotate: true
+  xy: 898, 62
+  size: 67, 124
+  orig: 67, 124
+  offset: 0, 0
+  index: -1
+images/Bingo/Leg
+  rotate: true
+  xy: 928, 796
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Bingo/Leg_2
+  rotate: true
+  xy: 928, 796
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Bingo/Leg_3
+  rotate: true
+  xy: 928, 758
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Bluey/Ankle
+  rotate: false
+  xy: 518, 93
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+images/Bluey/Arm
+  rotate: false
+  xy: 260, 434
+  size: 27, 72
+  orig: 27, 72
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_L_1
+  rotate: true
+  xy: 703, 255
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_L_1
+  rotate: true
+  xy: 703, 255
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_L_2
+  rotate: true
+  xy: 703, 203
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_L_2
+  rotate: true
+  xy: 703, 203
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_L_3
+  rotate: false
+  xy: 703, 134
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_L_3
+  rotate: false
+  xy: 703, 134
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_R_1
+  rotate: false
+  xy: 560, 372
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_R_1
+  rotate: false
+  xy: 560, 372
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_R_2
+  rotate: false
+  xy: 560, 305
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_R_2
+  rotate: false
+  xy: 560, 305
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_R_3
+  rotate: false
+  xy: 518, 198
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_R_3
+  rotate: false
+  xy: 518, 198
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_R_4
+  rotate: false
+  xy: 518, 131
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_R_4
+  rotate: false
+  xy: 518, 131
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Brow_L
+  rotate: false
+  xy: 518, 410
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+images/Bluey/Brow_R
+  rotate: false
+  xy: 518, 381
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+images/Bluey/Ear_L
+  rotate: true
+  xy: 347, 439
+  size: 67, 124
+  orig: 67, 124
+  offset: 0, 0
+  index: -1
+images/Bluey/Ear_R
+  rotate: true
+  xy: 473, 439
+  size: 67, 124
+  orig: 67, 124
+  offset: 0, 0
+  index: -1
+images/Bluey/Eye_White_R
+  rotate: false
+  xy: 755, 136
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Eye_White_R
+  rotate: false
+  xy: 755, 136
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Eye_White_R
+  rotate: false
+  xy: 755, 136
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand
+  rotate: false
+  xy: 854, 2
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Leg
+  rotate: true
+  xy: 928, 986
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Bluey/Leg_2
+  rotate: true
+  xy: 928, 948
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Bluey/Leg_3
+  rotate: true
+  xy: 928, 910
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Bluey/Pupil_L
+  rotate: true
+  xy: 123, 6
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+images/Bingo/Pupil_L
+  rotate: true
+  xy: 123, 6
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+images/Dad/Pupil_L
+  rotate: true
+  xy: 123, 6
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+images/Bluey/Pupil_R
+  rotate: true
+  xy: 149, 8
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+images/Bingo/Pupil_R
+  rotate: true
+  xy: 149, 8
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+images/Dad/Pupil_R
+  rotate: true
+  xy: 149, 8
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+images/Bluey/Shadow
+  rotate: false
+  xy: 2, 4
+  size: 119, 16
+  orig: 119, 16
+  offset: 0, 0
+  index: -1
+images/Bingo/Shadow
+  rotate: false
+  xy: 2, 4
+  size: 119, 16
+  orig: 119, 16
+  offset: 0, 0
+  index: -1
+images/Dad/Shadow
+  rotate: false
+  xy: 2, 4
+  size: 119, 16
+  orig: 119, 16
+  offset: 0, 0
+  index: -1
+images/Bluey/Tail
+  rotate: false
+  xy: 904, 14
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+images/Dad/Arm
+  rotate: false
+  xy: 289, 434
+  size: 27, 72
+  orig: 27, 72
+  offset: 0, 0
+  index: -1
+images/Dad/Brow_L
+  rotate: false
+  xy: 518, 352
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+images/Dad/Brow_R
+  rotate: false
+  xy: 518, 323
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+images/Dad/Ear_L
+  rotate: true
+  xy: 898, 131
+  size: 67, 124
+  orig: 67, 124
+  offset: 0, 0
+  index: -1
+images/Dad/Ear_R
+  rotate: true
+  xy: 898, 131
+  size: 67, 124
+  orig: 67, 124
+  offset: 0, 0
+  index: -1
+images/Dad/Leg
+  rotate: true
+  xy: 928, 872
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Dad/Leg_3
+  rotate: true
+  xy: 928, 834
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+images/Dad/patch
+  rotate: false
+  xy: 854, 47
+  size: 41, 59
+  orig: 41, 59
+  offset: 0, 0
+  index: -1
+images/Props/Bowa_2
+  rotate: true
+  xy: 598, 307
+  size: 56, 98
+  orig: 56, 98
+  offset: 0, 0
+  index: -1
+images/Props/Bowa_2_empty
+  rotate: true
+  xy: 698, 307
+  size: 56, 98
+  orig: 56, 98
+  offset: 0, 0
+  index: -1
+images/Props/Bowa_3_empty
+  rotate: false
+  xy: 928, 648
+  size: 84, 53
+  orig: 84, 53
+  offset: 0, 0
+  index: -1
+images/Props/Bowa_3b
+  rotate: false
+  xy: 928, 703
+  size: 84, 53
+  orig: 84, 53
+  offset: 0, 0
+  index: -1
+images/Props/Bowtie
+  rotate: true
+  xy: 260, 3
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+images/Props/Chef_hat
+  rotate: false
+  xy: 2, 690
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Glasses
+  rotate: true
+  xy: 928, 532
+  size: 114, 81
+  orig: 114, 81
+  offset: 0, 0
+  index: -1
+images/Props/Glasses_empty
+  rotate: true
+  xy: 928, 416
+  size: 114, 81
+  orig: 114, 81
+  offset: 0, 0
+  index: -1
+images/Props/Gnome_hat
+  rotate: false
+  xy: 2, 356
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Guitar
+  rotate: false
+  xy: 599, 365
+  size: 301, 141
+  orig: 301, 141
+  offset: 0, 0
+  index: -1
+images/Props/Guitar_empty
+  rotate: true
+  xy: 560, 2
+  size: 301, 141
+  orig: 301, 141
+  offset: 0, 0
+  index: -1
+images/Props/Hand_empty
+  rotate: false
+  xy: 902, 200
+  size: 120, 214
+  orig: 120, 214
+  offset: 0, 0
+  index: -1
+images/Props/Hat_empty
+  rotate: false
+  xy: 2, 22
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Headband
+  rotate: true
+  xy: 260, 766
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Leafblower
+  rotate: true
+  xy: 798, 108
+  size: 255, 98
+  orig: 255, 98
+  offset: 0, 0
+  index: -1
+images/Props/Magicans_hat
+  rotate: true
+  xy: 594, 766
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Moustache
+  rotate: true
+  xy: 902, 466
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+images/Props/Moustache_empty
+  rotate: true
+  xy: 902, 424
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+images/Props/Neck_empty
+  rotate: true
+  xy: 360, 3
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+images/Props/Necklace
+  rotate: true
+  xy: 460, 3
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+images/Props/Puppy
+  rotate: true
+  xy: 703, 3
+  size: 103, 149
+  orig: 103, 149
+  offset: 0, 0
+  index: -1
+images/Props/Purple_hat
+  rotate: true
+  xy: 260, 508
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Reindeer_ears
+  rotate: true
+  xy: 594, 508
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+images/Props/Veil
+  rotate: false
+  xy: 260, 82
+  size: 256, 332
+  orig: 256, 332
+  offset: 0, 0
+  index: -1
+
+keepy_uppy2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Bingo/Ankle
+  rotate: false
+  xy: 545, 120
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+images/Bingo/Wrist
+  rotate: false
+  xy: 545, 120
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+images/Bingo/Bod
+  rotate: false
+  xy: 310, 805
+  size: 138, 217
+  orig: 138, 217
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_L_1
+  rotate: true
+  xy: 347, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_L_2
+  rotate: false
+  xy: 416, 11
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_L_3
+  rotate: false
+  xy: 813, 750
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_L_4
+  rotate: false
+  xy: 499, 498
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_L_5
+  rotate: false
+  xy: 499, 429
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_R_1
+  rotate: false
+  xy: 478, 158
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_R_2
+  rotate: false
+  xy: 516, 158
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_R_3
+  rotate: true
+  xy: 478, 120
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Bottom_Eyelid_R_4
+  rotate: true
+  xy: 466, 82
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Foot
+  rotate: false
+  xy: 685, 701
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Bingo/Foot_2
+  rotate: true
+  xy: 710, 650
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Bingo/Foot_3
+  rotate: false
+  xy: 736, 726
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand
+  rotate: false
+  xy: 865, 717
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_10
+  rotate: false
+  xy: 554, 178
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_2
+  rotate: false
+  xy: 965, 717
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_3
+  rotate: true
+  xy: 532, 230
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_4
+  rotate: true
+  xy: 622, 272
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_5
+  rotate: false
+  xy: 577, 223
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_6
+  rotate: true
+  xy: 577, 268
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_7
+  rotate: false
+  xy: 915, 717
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Hand_9
+  rotate: true
+  xy: 627, 222
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bingo/Mouth
+  rotate: false
+  xy: 380, 454
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bingo/Mouth_2
+  rotate: false
+  xy: 243, 118
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bingo/Mouth_5
+  rotate: false
+  xy: 380, 341
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bingo/Mouth_5b
+  rotate: false
+  xy: 362, 228
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bingo/Mouth_5c
+  rotate: false
+  xy: 124, 118
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bingo/Open_L
+  rotate: false
+  xy: 499, 360
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Tail
+  rotate: false
+  xy: 362, 132
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_L_1
+  rotate: false
+  xy: 551, 507
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_L_2
+  rotate: false
+  xy: 551, 438
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_L_3
+  rotate: false
+  xy: 551, 369
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_L_4
+  rotate: false
+  xy: 603, 507
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_L_5
+  rotate: false
+  xy: 603, 438
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_R_1
+  rotate: false
+  xy: 468, 15
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_R_2
+  rotate: false
+  xy: 506, 15
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_R_3
+  rotate: false
+  xy: 641, 371
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_R_4
+  rotate: false
+  xy: 679, 382
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Top_Eyelid_R_5
+  rotate: false
+  xy: 717, 382
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Bod
+  rotate: false
+  xy: 170, 805
+  size: 138, 217
+  orig: 138, 217
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_L_4
+  rotate: true
+  xy: 2, 2
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_L_4
+  rotate: true
+  xy: 2, 2
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Bottom_Eyelid_L_5
+  rotate: true
+  xy: 71, 2
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Bottom_Eyelid_L_5
+  rotate: true
+  xy: 71, 2
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Eye_Outline_L
+  rotate: true
+  xy: 278, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Eye_Outline_L
+  rotate: true
+  xy: 278, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Eye_Outline_L
+  rotate: true
+  xy: 278, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Eye_Outline_R
+  rotate: false
+  xy: 693, 449
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Eye_Outline_R
+  rotate: false
+  xy: 693, 449
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Eye_Outline_R
+  rotate: false
+  xy: 693, 449
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Eye_White_L
+  rotate: true
+  xy: 328, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Eye_White_L
+  rotate: true
+  xy: 328, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Eye_White_L
+  rotate: true
+  xy: 328, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Foot
+  rotate: true
+  xy: 634, 583
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Bluey/Foot_2
+  rotate: true
+  xy: 683, 583
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Bluey/Foot_3
+  rotate: false
+  xy: 481, 225
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_10
+  rotate: true
+  xy: 755, 415
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_2
+  rotate: false
+  xy: 729, 337
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_3
+  rotate: true
+  xy: 732, 600
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_4
+  rotate: false
+  xy: 731, 510
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_5
+  rotate: false
+  xy: 731, 465
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_6
+  rotate: false
+  xy: 732, 555
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_7
+  rotate: false
+  xy: 679, 337
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Hand_9
+  rotate: true
+  xy: 544, 32
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Bluey/Mouth
+  rotate: false
+  xy: 2, 54
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bluey/Mouth_2
+  rotate: false
+  xy: 261, 457
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bluey/Mouth_5
+  rotate: false
+  xy: 170, 570
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bluey/Mouth_5b
+  rotate: false
+  xy: 289, 570
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bluey/Mouth_5c
+  rotate: false
+  xy: 142, 457
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Bluey/Open_L
+  rotate: false
+  xy: 813, 819
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Open_R
+  rotate: false
+  xy: 603, 371
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Open_R
+  rotate: false
+  xy: 603, 371
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Openeye_L_empty
+  rotate: false
+  xy: 618, 739
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bingo/Openeye_L_empty
+  rotate: false
+  xy: 618, 739
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Openeye_L_empty
+  rotate: false
+  xy: 618, 739
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Openeye_R_empty
+  rotate: true
+  xy: 618, 701
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bingo/Openeye_R_empty
+  rotate: true
+  xy: 618, 701
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Openeye_R_empty
+  rotate: true
+  xy: 618, 701
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_L_1
+  rotate: true
+  xy: 121, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_L_1
+  rotate: true
+  xy: 121, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_L_2
+  rotate: true
+  xy: 190, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_L_2
+  rotate: true
+  xy: 190, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_L_3
+  rotate: true
+  xy: 259, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_L_3
+  rotate: true
+  xy: 259, 66
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_L_4
+  rotate: true
+  xy: 140, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_L_4
+  rotate: true
+  xy: 140, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_L_5
+  rotate: true
+  xy: 209, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_L_5
+  rotate: true
+  xy: 209, 14
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_R_1
+  rotate: false
+  xy: 634, 634
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_R_1
+  rotate: false
+  xy: 634, 634
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_R_2
+  rotate: false
+  xy: 672, 634
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_R_2
+  rotate: false
+  xy: 672, 634
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_R_3
+  rotate: false
+  xy: 655, 516
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_R_3
+  rotate: false
+  xy: 655, 516
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_R_4
+  rotate: false
+  xy: 655, 449
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_R_4
+  rotate: false
+  xy: 655, 449
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Top_Eyelid_R_5
+  rotate: false
+  xy: 693, 516
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Top_Eyelid_R_5
+  rotate: false
+  xy: 693, 516
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Bluey/Wrist
+  rotate: false
+  xy: 519, 280
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+images/Dad/Ankle
+  rotate: false
+  xy: 533, 82
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+images/Dad/Bod
+  rotate: false
+  xy: 2, 383
+  size: 138, 217
+  orig: 138, 217
+  offset: 0, 0
+  index: -1
+images/Dad/Foot
+  rotate: true
+  xy: 519, 309
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Dad/Foot_2
+  rotate: true
+  xy: 568, 318
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Dad/Foot_3
+  rotate: false
+  xy: 617, 322
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+images/Dad/Hand
+  rotate: false
+  xy: 868, 852
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_10
+  rotate: false
+  xy: 965, 762
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_2
+  rotate: false
+  xy: 865, 807
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_3
+  rotate: false
+  xy: 865, 762
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_4
+  rotate: false
+  xy: 915, 762
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_5
+  rotate: false
+  xy: 968, 852
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_6
+  rotate: false
+  xy: 915, 807
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_7
+  rotate: false
+  xy: 918, 852
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Hand_9
+  rotate: false
+  xy: 965, 807
+  size: 48, 43
+  orig: 48, 43
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth
+  rotate: false
+  xy: 694, 775
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_2
+  rotate: false
+  xy: 243, 231
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_3
+  rotate: true
+  xy: 521, 576
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_5
+  rotate: false
+  xy: 142, 344
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_5b
+  rotate: false
+  xy: 261, 344
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_5c
+  rotate: false
+  xy: 124, 231
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_6
+  rotate: true
+  xy: 386, 686
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Mouth_7
+  rotate: false
+  xy: 499, 695
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Dad/Open_L
+  rotate: true
+  xy: 397, 80
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+images/Dad/Open_R
+  rotate: false
+  xy: 481, 274
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+images/Dad/Tail
+  rotate: false
+  xy: 362, 180
+  size: 114, 46
+  orig: 114, 46
+  offset: 0, 0
+  index: -1
+images/Dad/Wrist
+  rotate: false
+  xy: 548, 280
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+images/Dad/mouth_8
+  rotate: true
+  xy: 408, 567
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+images/Props/Backpack
+  rotate: false
+  xy: 868, 897
+  size: 131, 125
+  orig: 131, 125
+  offset: 0, 0
+  index: -1
+images/Props/Bowa_1_empty
+  rotate: false
+  xy: 2, 602
+  size: 166, 209
+  orig: 166, 209
+  offset: 0, 0
+  index: -1
+images/Props/Bowa_1b
+  rotate: false
+  xy: 2, 813
+  size: 166, 209
+  orig: 166, 209
+  offset: 0, 0
+  index: -1
+images/Props/Cloudbag
+  rotate: false
+  xy: 694, 888
+  size: 172, 134
+  orig: 172, 134
+  offset: 0, 0
+  index: -1
+images/Props/Puppet
+  rotate: true
+  xy: 170, 683
+  size: 120, 214
+  orig: 120, 214
+  offset: 0, 0
+  index: -1
+images/Props/Umbrella
+  rotate: false
+  xy: 2, 167
+  size: 120, 214
+  orig: 120, 214
+  offset: 0, 0
+  index: -1
+images/Props/Wand
+  rotate: false
+  xy: 450, 808
+  size: 120, 214
+  orig: 120, 214
+  offset: 0, 0
+  index: -1
+images/Props/Wrench
+  rotate: false
+  xy: 572, 808
+  size: 120, 214
+  orig: 120, 214
+  offset: 0, 0
+  index: -1

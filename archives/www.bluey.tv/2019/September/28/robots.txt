@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /config/
+Disallow: /wp-admin/
+Disallow: /wp-includes/

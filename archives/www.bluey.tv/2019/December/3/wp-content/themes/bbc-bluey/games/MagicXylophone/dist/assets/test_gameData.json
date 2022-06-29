@@ -1,0 +1,664 @@
+{
+    "titleConfig": {
+        "title": {
+            "text": "MAGIC\r\nXYLOPHONE",
+            "font": "HelloHeadline",
+            "size": "64"
+        },
+        "images": [
+            {
+                "name": "splash_screen",
+                "x": 568,
+                "y": 320,
+                "scale": 1
+            },
+            {
+                "name": "bluey_splash",
+                "x": 1045,
+                "y": 360,
+                "scale": 1
+            },
+            {
+                "name": "bingo_splash",
+                "x": 895,
+                "y": 390,
+                "scale": 1
+            },
+            {
+                "name": "bandit_splash",
+                "x": 235,
+                "y": 350,
+                "scale": 1
+            },
+            {
+                "name": "bluey_logo",
+                "x": 568,
+                "y": 140,
+                "scale": 1
+            }
+        ]
+    },
+    "spineData": [
+        {
+            "key": "Bluey",
+            "key_1x": "Bluey",
+            "atlas": "xylophone.atlas",
+            "atlas_1x": "1x/xylophone.atlas",
+            "data": "bluey.json",
+            "data_1x": "1x/bluey.json"
+        },
+        {
+            "key": "Bingo",
+            "key_1x": "Bingo",
+            "atlas": "xylophone.atlas",
+            "atlas_1x": "1x/xylophone.atlas",
+            "data": "bingo.json",
+            "data_1x": "1x/bingo.json"
+        },
+        {
+            "key": "Dad",
+            "key_1x": "Dad",
+            "atlas": "xylophone.atlas",
+            "atlas_1x": "1x/xylophone.atlas",
+            "data": "dad.json",
+            "data_1x": "1x/dad.json"
+        }
+    ],
+    "soundConfig": [
+        {
+            "name": "click",
+            "file": "ui_click"
+        },
+        {
+            "name": "pop",
+            "file": "pop"
+        },
+        {
+            "name": "ting",
+            "file": "xylo_ting"
+        },
+        {
+            "name": "bgmusic",
+            "file": "bg_music1_louder"
+        },
+        {
+            "name": "bluey_eee",
+            "file": "bluey_eeee_001"
+        },
+        {
+            "name": "bluey_giggle",
+            "file": "bluey_laugh_001"
+        },
+        {
+            "name": "bluey_laugh_009",
+            "file": "bluey_laugh_009"
+        },
+        {
+            "name": "bluey_laugh_007",
+            "file": "bluey_laugh_007"
+        },
+        {
+            "name": "bluey_laugh_006",
+            "file": "bluey_laugh_006"
+        },
+        {
+            "name": "bingo_laugh_002",
+            "file": "bingo_laugh_002"
+        },
+        {
+            "name": "bingo_giggle1",
+            "file": "bingo_giggle1"
+        },
+        {
+            "name": "dad_laugh_001",
+            "file": "dad_laugh_001"
+        }
+    ],
+    "characterSFX": [
+        {
+            "name": "bingo_sfx",
+            "sounds": [
+                "bingo_laugh_001",
+                "bingo_laugh_002",
+                "bingo_laugh_003",
+                "bingo_laugh_004"
+            ],
+            "vo": [
+                "bingo_oohlovely_001"
+            ]
+        },
+        {
+            "name": "bluey_sfx",
+            "sounds": [
+                "bluey_laugh_001",
+                "bluey_laugh_006",
+                "bluey_laugh_009"
+            ],
+            "vo": [
+                "bluey_eeee_001"
+            ]
+        },
+        {
+            "name": "dad_sfx",
+            "sounds": [
+                "dad_laugh_001",
+                "dad_oooh_001",
+                "dad_whoah_001"
+            ],
+            "vo": [
+                "dad_beauty_001",
+                "dad_ohwow_001"
+            ],
+            "include": [
+                "blueybingo_magicxylophone_001"
+            ]
+        }
+    ],
+    "dressupConfig": {
+        "bgScale": 1.5,
+        "itemScale": 1.125,
+        "offsetX": 0,
+        "offsetY": -110,
+        "scaleX": 2,
+        "scaleY": 2,
+        "animations": {
+            "default": "idle",
+            "celebrate": [
+                "jump",
+                "dance_hop"
+            ]
+        },
+        "items": [
+            {
+                "icon": "magicans_hat",
+                "slot": "Hat",
+                "region": "Magicans_hat",
+                "type": "spine"
+            },
+            {
+                "icon": "puppet",
+                "slot": "Hand_R_item",
+                "region": "Puppet",
+                "type": "spine"
+            },
+            {
+                "icon": "bowa",
+                "freePlace": "true",
+                "slots": [
+                    "bowa_1",
+                    "Bowa_2",
+                    "Bowa_3"
+                ],
+                "regions": [
+                    "Bowa_1",
+                    "Bowa_2",
+                    "Bowa_3"
+                ],
+                "type": "spine",
+                "overrideSlot": {
+                    "sprite": "bowa",
+                    "slot": "Bowa_2"
+                }
+            },
+            {
+                "icon": "guitar",
+                "slot": "Guitar",
+                "region": "Guitar",
+                "type": "spine"
+            },
+            {
+                "icon": "umbrella",
+                "slot": "Hand_R_item",
+                "region": "Umbrella",
+                "type": "spine"
+            },
+            {
+                "icon": "banana",
+                "slot": "",
+                "region": "banana",
+                "type": "sprite"
+            },
+            {
+                "icon": "wand",
+                "slot": "Hand_R_item",
+                "region": "Wand",
+                "type": "spine"
+            },
+            {
+                "icon": "wrench",
+                "slot": "Hand_R_item",
+                "region": "Wrench",
+                "type": "spine"
+            },
+            {
+                "icon": "veil",
+                "slot": "Hat",
+                "region": "Veil",
+                "type": "spine"
+            },
+            {
+                "icon": "purple_hat",
+                "slot": "Hat",
+                "region": "Purple_hat",
+                "type": "spine"
+            },
+            {
+                "icon": "reindeer_ears",
+                "slot": "Hat",
+                "region": "Reindeer_ears",
+                "type": "spine"
+            },
+            {
+                "icon": "chef_hat",
+                "slot": "Hat",
+                "region": "Chef_hat",
+                "type": "spine"
+            },
+            {
+                "icon": "gnome_hat",
+                "slot": "Hat",
+                "region": "Gnome_hat",
+                "type": "spine"
+            },
+            {
+                "icon": "headband",
+                "slot": "Hat",
+                "region": "Headband",
+                "type": "spine"
+            },
+            {
+                "icon": "necklace",
+                "slot": "Neck_item",
+                "region": "Necklace",
+                "type": "spine"
+            },
+            {
+                "icon": "bowtie",
+                "slot": "Neck_item",
+                "region": "Bowtie",
+                "type": "spine"
+            },
+            {
+                "icon": "suitcase",
+                "slot": "Hand_L_item_behind",
+                "region": "Cloudbag",
+                "type": "spine"
+            },
+            {
+                "icon": "toiletroll",
+                "region": "toiletroll",
+                "type": "sprite"
+            },
+            {
+                "icon": "cat",
+                "region": "cat",
+                "type": "sprite"
+            },
+            {
+                "icon": "doll",
+                "region": "doll",
+                "type": "sprite"
+            },
+            {
+                "icon": "frog",
+                "region": "frog",
+                "type": "sprite"
+            },
+            {
+                "icon": "gnome1",
+                "region": "gnome1",
+                "type": "sprite"
+            },
+            {
+                "icon": "gnome2",
+                "region": "gnome2",
+                "type": "sprite"
+            },
+            {
+                "icon": "octopus",
+                "region": "octopus",
+                "type": "sprite"
+            },
+            {
+                "icon": "puppy",
+                "slot": "Hand_L_item_behind",
+                "region": "Puppy",
+                "type": "spine"
+            },
+            {
+                "icon": "sock",
+                "region": "sock",
+                "type": "sprite"
+            },
+            {
+                "icon": "backpack",
+                "slot": "Hand_L_item_behind",
+                "region": "Backpack",
+                "type": "spine"
+            },
+            {
+                "icon": "bear",
+                "region": "bear",
+                "type": "sprite"
+            },
+            {
+                "icon": "bunny",
+                "region": "bunny",
+                "type": "sprite"
+            },
+            {
+                "icon": "balloon",
+                "slot": "",
+                "region": "balloon",
+                "type": "sprite"
+            }
+        ],
+        "maxItems": 3,
+        "padding": 27.5
+    },
+    "characters": [
+        {
+            "name": "Bluey1",
+            "spine": "Bluey",
+            "bg": "zoom_bluey_bg",
+            "sfxPath": "bluey_sfx",
+            "dressupScale": 1,
+            "animations": {
+                "default": "idle",
+                "shake": "jump_shake",
+                "dance": [
+                    "tail_dance_arms",
+                    "look_right",
+                    "tail_dance_arms",
+                    "anticipation",
+                    "tail_dance_arms",
+                    "look_left"
+                ],
+                "happy": [
+                    "giggle",
+                    "giggle_2",
+                    "look_right",
+                    "giggle",
+                    "anticipation",
+                    "giggle_short",
+                    "look_left"
+                ],
+                "idles": [
+                    "look_right",
+                    "blink",
+                    "look_left",
+                    "look_up"
+                ]
+            },
+            "sfx": {
+                "shake": "bluey_giggle",
+                "giggle": "bluey_giggle",
+                "giggle_2": "bluey_laugh_009",
+                "giggle_short": "bluey_laugh_007"
+            },
+            "skin": "bluey",
+            "posX": 568,
+            "posY": 520,
+            "scale": 0.2,
+            "direction": 1,
+            "slots": [
+                "Guitar",
+                "Neck_item",
+                "Hat",
+                "Hand_R_item",
+                "Hand_L_item_behind",
+                [
+                    "bowa_1",
+                    "Bowa_2",
+                    "Bowa_3"
+                ]
+            ]
+        },
+        {
+            "name": "Dad1",
+            "spine": "Dad",
+            "bg": "zoom_dad_bg",
+            "sfxPath": "dad_sfx",
+            "dressupScale": 0.75,
+            "animations": {
+                "default": "idle",
+                "shake": "jump_shake",
+                "dance": [
+                    "idle",
+                    "dance_bop",
+                    "look_left",
+                    "dance_lawnmower",
+                    "blink",
+                    "dance_bop",
+                    "look_right",
+                    "dance_lawnmower"
+                ],
+                "happy": [
+                    "laugh",
+                    "look_left",
+                    "hands_on_hips",
+                    "idle",
+                    "laugh",
+                    "blink",
+                    "hands_on_hips",
+                    "look_right"
+                ],
+                "idles": [
+                    "idle",
+                    "blink",
+                    "look_right",
+                    "look_left"
+                ]
+            },
+            "sfx": {
+                "shake": "bluey_giggle",
+                "laugh": "dad_laugh_001"
+            },
+            "skin": "Dad",
+            "posX": 818,
+            "posY": 520,
+            "scale": 0.2,
+            "direction": -1,
+            "slots": [
+                "Guitar",
+                "Neck_item",
+                "Hat",
+                "Hand_R_item",
+                "Hand_L_item_behind",
+                [
+                    "bowa_1",
+                    "Bowa_2",
+                    "Bowa_3"
+                ]
+            ]
+        },
+        {
+            "name": "Bingo1",
+            "spine": "Bingo",
+            "bg": "zoom_bingo_bg",
+            "sfxPath": "bingo_sfx",
+            "dressupScale": 1,
+            "animations": {
+                "default": "idle",
+                "shake": "jump_shake",
+                "dance": [
+                    "idle",
+                    "look_left",
+                    "dance",
+                    "blink",
+                    "look_right",
+                    "dance_2"
+                ],
+                "happy": [
+                    "giggle",
+                    "idle",
+                    "giggle_2",
+                    "look_left",
+                    "giggle",
+                    "giggle_short",
+                    "blink",
+                    "giggle",
+                    "look_right"
+                ],
+                "idles": [
+                    "idle",
+                    "blink",
+                    "look_right",
+                    "look_left"
+                ]
+            },
+            "sfx": {
+                "shake": "bluey_giggle",
+                "giggle": "bingo_giggle1",
+                "giggle_2": "bingo_laugh_002",
+                "giggle_short": "bingo_giggle1"
+            },
+            "skin": "Bingo",
+            "posX": 318,
+            "posY": 520,
+            "scale": 0.2,
+            "direction": 1,
+            "slots": [
+                "Guitar",
+                "Neck_item",
+                "Hat",
+                "Hand_R_item",
+                "Hand_L_item_behind",
+                [
+                    "bowa_1",
+                    "Bowa_2",
+                    "Bowa_3"
+                ]
+            ]
+        }
+    ],
+    "helpConfig": {
+        "steps": [
+            {
+                "image": "help1",
+                "anims": [
+                    {
+                        "type": "move",
+                        "time": 10,
+                        "target": {
+                            "x": -0.25,
+                            "y": -0.2175
+                        }
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Back.easeOut",
+                        "time": 750,
+                        "scale": 1,
+                        "delay": 750
+                    },
+                    {
+                        "type": "tap",
+                        "easing": "Quad.easeInOut",
+                        "time": 200
+                    },
+                    {
+                        "type": "move",
+                        "easing": "Quad.easeInOut",
+                        "time": 1000,
+                        "target": {
+                            "x": 0.22,
+                            "y": -0.125
+                        }
+                    },
+                    {
+                        "type": "tap",
+                        "easing": "Quad.easeInOut",
+                        "time": 200
+                    },
+                    {
+                        "type": "move",
+                        "easing": "Quad.easeInOut",
+                        "time": 1000,
+                        "target": {
+                            "x": -0.022,
+                            "y": -0.185
+                        }
+                    },
+                    {
+                        "type": "tap",
+                        "easing": "Quad.easeInOut",
+                        "time": 200
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Back.easeIn",
+                        "time": 750,
+                        "scale": 0,
+                        "delay": 500
+                    }
+                ]
+            },
+            {
+                "image": "help2",
+                "anims": [
+                    {
+                        "type": "move",
+                        "time": 10,
+                        "target": {
+                            "x": -0.375,
+                            "y": 0
+                        }
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Back.easeOut",
+                        "time": 750,
+                        "scale": 1,
+                        "delay": 750
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Quad.easeIn",
+                        "scale": 0.8,
+                        "time": 200,
+                        "delay": 250
+                    },
+                    {
+                        "type": "move",
+                        "easing": "Quad.easeInOut",
+                        "time": 1000,
+                        "target": {
+                            "x": -0.0125,
+                            "y": -0.05
+                        },
+                        "delay": 500
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Quad.easeOut",
+                        "time": 200,
+                        "scale": 1
+                    },
+                    {
+                        "type": "move",
+                        "easing": "Quad.easeInOut",
+                        "time": 1000,
+                        "target": {
+                            "x": 0.42,
+                            "y": -0.38
+                        },
+                        "delay": 500
+                    },
+                    {
+                        "type": "tap",
+                        "easing": "Quad.easeInOut",
+                        "time": 200
+                    },
+                    {
+                        "type": "scale",
+                        "easing": "Back.easeIn",
+                        "time": 750,
+                        "scale": 0,
+                        "delay": 750
+                    }
+                ]
+            }
+        ]
+    }
+}
