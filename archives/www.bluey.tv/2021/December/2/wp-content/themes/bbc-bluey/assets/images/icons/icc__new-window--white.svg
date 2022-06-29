@@ -1,0 +1,11 @@
+<svg version="1.1" id="Layer_1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 11.7 11.9" style="enable-background:new 0 0 11.7 11.9;" xml:space="preserve">
+    <style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+    </style>
+    <g>
+        <path class="st0" d="M10.9,0H7.6C7.2,0,6.8,0.4,6.8,0.8s0.4,0.8,0.8,0.8h1.5L4.7,6c-0.3,0.3-0.3,0.8,0,1.1c0.2,0.2,0.4,0.2,0.6,0.2   s0.4-0.1,0.6-0.2l4.3-4.3v1.3c0,0.4,0.4,0.8,0.8,0.8s0.8-0.4,0.8-0.8V0.8C11.7,0.4,11.4,0,10.9,0z"/>
+        <path class="st0" d="M9.6,5.7c-0.4,0-0.8,0.4-0.8,0.8v3.8H1.6V3.1h3.8c0.4,0,0.8-0.4,0.8-0.8S5.8,1.5,5.4,1.5H0.8   C0.4,1.5,0,1.8,0,2.3v8.8c0,0.4,0.4,0.8,0.8,0.8h8.8c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.6V6.5C10.4,6.1,10.1,5.7,9.6,5.7   z"/>
+    </g>
+</svg>
