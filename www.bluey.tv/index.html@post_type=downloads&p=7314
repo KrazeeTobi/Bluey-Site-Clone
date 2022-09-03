@@ -84,7 +84,7 @@ window.lodash = _.noConflict();
 <script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/objectfit-polyfill.js' id='object-fit-js'></script>
 <script type='text/javascript' id='global-js-extra'>
 /* <![CDATA[ */
-var global = {"site_url":"https:\/\/www.bluey.tv","theme_url":"https:\/\/www.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/www.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"58a4cf1b4e","rest_nonce":"fcfaf0d3ae"};
+var global = {"site_url":"https:\/\/www.bluey.tv","theme_url":"https:\/\/www.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/www.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"359ab25a19","rest_nonce":"568fba0fc6"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/theme-global.min.js' id='global-js'></script>
