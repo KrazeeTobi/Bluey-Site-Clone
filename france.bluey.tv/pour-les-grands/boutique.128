@@ -16,12 +16,12 @@
         <!-- <meta charset="utf-8" /> -->
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="google-site-verification" content="X1KWNNI1gjZikuBC70eXoyJgZI1wq7_K4sGc2fT36wc" />
-    <meta property="article:published_time" content="09/12/19 10:25 PM" />
+    <meta property="article:published_time" content="09/25/19 8:34 AM" />
     <meta property="article:author" content="Official Bluey TV" />
     <meta
         property='custom meta field'
         data-sj-field='page-title'
-        content="Plan du site"
+        content="Boutique"
     />
 
     <script data-cookieconsent="ignore">
@@ -38,20 +38,23 @@
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 	<!-- This site is optimized with the Yoast SEO plugin v19.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Plan du site - Bluey Official Website</title>
-	<link rel="canonical" href="https://france.bluey.tv/plan-du-site/" />
+	<title>Boutique - Bluey Official Website</title>
+	<meta name="description" content="Shop online for official Bluey merchandise, including toys, books, videos and more. Plus, explore a full list of our retail partners." />
+	<link rel="canonical" href="https://france.bluey.tv/pour-les-grands/boutique/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Plan du site - Bluey Official Website" />
-	<meta property="og:url" content="https://france.bluey.tv/plan-du-site/" />
+	<meta property="og:title" content="Boutique - Bluey Official Website" />
+	<meta property="og:description" content="Shop online for official Bluey merchandise, including toys, books, videos and more. Plus, explore a full list of our retail partners." />
+	<meta property="og:url" content="https://france.bluey.tv/pour-les-grands/boutique/" />
 	<meta property="og:site_name" content="Bluey Official Website" />
-	<meta property="article:modified_time" content="2022-07-13T02:42:37+00:00" />
+	<meta property="article:modified_time" content="2022-07-04T06:27:39+00:00" />
 	<meta property="og:image" content="https://france.bluey.tv/wp-content/uploads/2019/11/bluey-preview-fb.jpg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta name="twitter:card" content="summary" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://france.bluey.tv/plan-du-site/","url":"https://france.bluey.tv/plan-du-site/","name":"Plan du site - Bluey Official Website","isPartOf":{"@id":"https://france.bluey.tv/#website"},"datePublished":"2019-09-12T22:25:59+00:00","dateModified":"2022-07-13T02:42:37+00:00","breadcrumb":{"@id":"https://france.bluey.tv/plan-du-site/#breadcrumb"},"inLanguage":"en-AU","potentialAction":[{"@type":"ReadAction","target":["https://france.bluey.tv/plan-du-site/"]}]},{"@type":"BreadcrumbList","@id":"https://france.bluey.tv/plan-du-site/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://france.bluey.tv/"},{"@type":"ListItem","position":2,"name":"Plan du site"}]},{"@type":"WebSite","@id":"https://france.bluey.tv/#website","url":"https://france.bluey.tv/","name":"Bluey Official Website","description":"BBC","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://france.bluey.tv/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-AU"}]}</script>
+	<meta name="twitter:image" content="https://france.bluey.tv/wp-content/uploads/2019/11/bluey-preview-fb.jpg" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://france.bluey.tv/pour-les-grands/boutique/","url":"https://france.bluey.tv/pour-les-grands/boutique/","name":"Boutique - Bluey Official Website","isPartOf":{"@id":"https://france.bluey.tv/#website"},"datePublished":"2019-09-25T08:34:30+00:00","dateModified":"2022-07-04T06:27:39+00:00","description":"Shop online for official Bluey merchandise, including toys, books, videos and more. Plus, explore a full list of our retail partners.","breadcrumb":{"@id":"https://france.bluey.tv/pour-les-grands/boutique/#breadcrumb"},"inLanguage":"en-AU","potentialAction":[{"@type":"ReadAction","target":["https://france.bluey.tv/pour-les-grands/boutique/"]}]},{"@type":"BreadcrumbList","@id":"https://france.bluey.tv/pour-les-grands/boutique/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://france.bluey.tv/"},{"@type":"ListItem","position":2,"name":"Pour les grands","item":"https://france.bluey.tv/pour-les-grands/"},{"@type":"ListItem","position":3,"name":"Boutique"}]},{"@type":"WebSite","@id":"https://france.bluey.tv/#website","url":"https://france.bluey.tv/","name":"Bluey Official Website","description":"BBC","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://france.bluey.tv/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-AU"}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -83,11 +86,11 @@ window.lodash = _.noConflict();
 <script type='text/javascript' src='https://france.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/objectfit-polyfill.js' id='object-fit-js'></script>
 <script type='text/javascript' id='global-js-extra'>
 /* <![CDATA[ */
-var global = {"site_url":"https:\/\/france.bluey.tv","theme_url":"https:\/\/france.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/france.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"0d530d17ab","rest_nonce":"62488fa5d4"};
+var global = {"site_url":"https:\/\/france.bluey.tv","theme_url":"https:\/\/france.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/france.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"9e32af714b","rest_nonce":"36859e52e5"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://france.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/theme-global.min.js' id='global-js'></script>
-<link rel="https://api.w.org/" href="https://france.bluey.tv/wp-json/" /><link rel="alternate" type="application/json" href="https://france.bluey.tv/wp-json/wp/v2/pages/2036" /><meta name="country" content="GB" /><meta name="city" content="SWANSEA" /><meta name="long" content="-3.97" /><meta name="lat" content="51.63" /><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="https://api.w.org/" href="https://france.bluey.tv/wp-json/" /><link rel="alternate" type="application/json" href="https://france.bluey.tv/wp-json/wp/v2/pages/2071" /><meta name="country" content="GB" /><meta name="city" content="SWANSEA" /><meta name="long" content="-3.97" /><meta name="lat" content="51.63" /><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="profile" href="http://gmpg.org/xfn/11">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="Bluey">
@@ -126,12 +129,10 @@ var global = {"site_url":"https:\/\/france.bluey.tv","theme_url":"https:\/\/fran
             * © 2022 MyFonts Inc
             */
         -->
-    
-                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"1081794",ustr:"",originlat:"0",clientrtt:"15",ghostip:"2.16.167.15",ipv6:false,pct:"10",clientip:"2.31.165.184",requestid:"20e6de1c",region:"30561",protocol:"",blver:14,akM:"dscj",akN:"ae",akTT:"O",akTX:"1",akTI:"20e6de1c",ai:"777401",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
-                    </head>
+    </head>
 
-<body class="page-template page-template-site-map page-template-site-map-php page page-id-2036 wp-embed-responsive page-plan-du-site default-theme" data-country="GB" data-language-code="fr_FR"
-    data-post-id="2036" data-shop-tax="">
+<body class="page-template-default page page-id-2071 page-child parent-pageid-165 wp-embed-responsive page-boutique grownups-theme" data-country="GB" data-language-code="fr_FR"
+    data-post-id="2071" data-shop-tax="">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
                 <noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-MPZK5DV'
                 height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>           
@@ -143,17 +144,17 @@ var global = {"site_url":"https:\/\/france.bluey.tv","theme_url":"https:\/\/fran
                 })(window,document,'script','dataLayer','GTM-MPZK5DV');</script>
                 <!-- End Google Tag Manager -->
 		        <main id="panel" class="site" aria-label="Main Content">
-        <header class="wp-block-bbc-billboard menu-top detail-page " aria-label="Plan du site" data-show-menu="false"><nav class="gbl-primary-menu" role="navigation" data-show-menu="false"><a class="gbl-primary-menu__logo" href="https://france.bluey.tv" aria-label="Bluey Logo">Plan du site</a>
+        <header class="wp-block-bbc-billboard menu-top detail-page " aria-label="Boutique" data-show-menu="false"><nav class="gbl-primary-menu" role="navigation" data-show-menu="false"><a class="gbl-primary-menu__logo" href="https://france.bluey.tv" aria-label="Bluey Logo">Boutique</a>
             <div class="gbl-primary-menu__items">
-                <a class="gbl-primary-menu__logo--mobile" href="https://france.bluey.tv" aria-label="Bluey Logo">Plan du site</a>                    
+                <a class="gbl-primary-menu__logo--mobile" href="https://france.bluey.tv" aria-label="Bluey Logo">Boutique</a>                    
                 <li class="menu-item"><a href="https://france.bluey.tv" title="home" >Home</a></li><li id="menu-item-361" class="menu-item"><a href="https://france.bluey.tv/regarder/">Regarder</a></li>
 <li id="menu-item-362" class="menu-item"><a href="https://france.bluey.tv/activites/">Activités</a></li>
 <li id="menu-item-367" class="menu-item"><a href="https://france.bluey.tv/personnages/">Personnages</a></li>
 <li id="menu-item-360" class="menu-item"><a href="https://france.bluey.tv/jouer/">Jouer</a></li>
-<li id="menu-item-7051" class="menu-item menu-item-has-children"><a href="https://france.bluey.tv/pour-les-grands/">Pour les grands</a>
+<li id="menu-item-7051" class="menu-item current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children current-menu-ancestor"><a href="https://france.bluey.tv/pour-les-grands/" class="current-menu-item">Pour les grands</a>
 <ul class="sub-menu">
-	<li id="menu-item-7052" class="menu-item"><a href="https://france.bluey.tv/pour-les-grands/boutique/">Boutique</a></li>
-	<li id="menu-item-7075" class="menu-item"><a href="https://france.bluey.tv/pour-les-grands/blog/">Blog</a></li>
+	<li id="menu-item-7052" class="menu-item current-menu-item page_item page-item-2071 current_page_item"><a href="https://france.bluey.tv/pour-les-grands/boutique/" aria-current="page" class="current-menu-item">Boutique</a></li>
+	<li id="menu-item-7075" class="menu-item"><a href="https://france.bluey.tv/pour-les-grands/blog/" class="current-menu-item">Blog</a></li>
 </ul>
 </li>
 
@@ -163,34 +164,11 @@ var global = {"site_url":"https:\/\/france.bluey.tv","theme_url":"https:\/\/fran
         <audio class="gbl-animation__audio" preload="auto">
             <source src="#"/>
         </audio>
-    </div>
-            <div class="gbl-blog-title gbl-international-blog-title">
-            <h1>Plan du site</h1>
-            
-            </div>
-            </header>
+    </div></header>
 
 
-<p></p>
-<section class="bbc-sitemap" aria-label="Site Map">
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/">Accueil</a></h2></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/regarder/">Regarder</a></h2><div class="bbc-sitemap__sub-items"><a href="https://france.bluey.tv/regarder/saison-1/a-lhopital/">A L'Hôpital</a><a href="https://france.bluey.tv/regarder/saison-1/les-mamans-et-les-papas/">Les mamans et les papas</a><a href="https://france.bluey.tv/regarder/saison-1/voyages-en-sacs-a-dos/">Voyages en Sacs à Dos</a><a href="https://france.bluey.tv/regarder/saison-1/le-trampoline/">Le Trampoline</a><a href="https://france.bluey.tv/regarder/saison-1/asperge/">Asperge</a><a href="https://france.bluey.tv/regarder/saison-1/les-voisins/">Les Voisins</a><a href="https://france.bluey.tv/regarder/saison-1/le-jeu-des-enfants/">Le jeu des enfants</a><a href="https://france.bluey.tv/regarder/saison-1/le-mont-papamaman/">Le Mont Papamaman</a><a href="https://france.bluey.tv/regarder/saison-1/laventure/">L'aventure</a><a href="https://france.bluey.tv/regarder/saison-1/le-xylophone-magique/">Le Xylophone Magique</a><a href="https://france.bluey.tv/regarder/saison-1/le-bebe-premature/">Le bébé prématuré</a><a href="https://france.bluey.tv/regarder/saison-1/camping/">Camping</a><a href="https://france.bluey.tv/regarder/saison-1/cache-cache/">Cache-cache</a><a href="https://france.bluey.tv/regarder/saison-1/ratpoulet/">Ratpoulet</a><a href="https://france.bluey.tv/regarder/saison-1/taquineries/">Taquineries</a><a href="https://france.bluey.tv/regarder/saison-1/shaun/">Shaun</a><a href="https://france.bluey.tv/regarder/saison-1/papa-met-bingo-et-bluey-au-lit/">Papa met Bingo et Bluey au lit</a><a href="https://france.bluey.tv/regarder/saison-1/le-pere-noel-de-la-veranda/">Le Père Noël de la Véranda</a><a href="https://france.bluey.tv/regarder/saison-1/le-medecin/">Le Médecin</a><a href="https://france.bluey.tv/regarder/saison-1/la-soiree-pyjama/">La Soirée Pyjama</a><a href="https://france.bluey.tv/regarder/saison-1/bicyclette/">Bicyclette</a><a href="https://france.bluey.tv/regarder/saison-1/imitation/">Imitation</a><a href="https://france.bluey.tv/regarder/saison-1/le-zoo/">Le Zoo</a><a href="https://france.bluey.tv/regarder/saison-1/la-dechetterie/">La Déchetterie</a><a href="https://france.bluey.tv/regarder/saison-1/le-travail/">Le Travail</a><a href="https://france.bluey.tv/regarder/saison-1/bumpy-et-le-vieux-levrier-sage/">Bumpy et le vieux lévrier sage</a><a href="https://france.bluey.tv/regarder/saison-1/les-grands-meres/">Les Grands-mères</a><a href="https://france.bluey.tv/regarder/saison-1/le-chariot/">Le Chariot</a><a href="https://france.bluey.tv/regarder/saison-1/la-pince/">La Pince</a><a href="https://france.bluey.tv/regarder/saison-1/taxi/">Taxi</a><a href="https://france.bluey.tv/regarder/saison-1/la-piscine/">La Piscine</a><a href="https://france.bluey.tv/regarder/saison-1/le-barbecue/">Le Barbecue</a><a href="https://france.bluey.tv/regarder/saison-1/papa-robot/">Papa Robot</a><a href="https://france.bluey.tv/regarder/saison-1/le-magasin/">Le Magasin</a><a href="https://france.bluey.tv/regarder/saison-1/la-plage/">La Plage</a><a href="https://france.bluey.tv/regarder/saison-1/les-pirates/">Les Pirates</a><a href="https://france.bluey.tv/regarder/saison-1/les-fees/">Les Fées</a><a href="https://france.bluey.tv/regarder/saison-1/la-crique/">La Crique</a><a href="https://france.bluey.tv/regarder/saison-1/les-montagnes-bleues/">Les Montagnes bleues</a><a href="https://france.bluey.tv/regarder/saison-1/le-marche/">Le Marché</a><a href="https://france.bluey.tv/regarder/saison-1/calypso/">Calypso</a><a href="https://france.bluey.tv/regarder/saison-1/le-ballon-de-yoga/">Le Ballon de Yoga</a><a href="https://france.bluey.tv/regarder/saison-1/papillons/">Papillons</a><a href="https://france.bluey.tv/regarder/saison-1/bob-le-bilby/">Bob, le Bilby</a><a href="https://france.bluey.tv/regarder/saison-1/lhotel/">L'hôtel</a><a href="https://france.bluey.tv/regarder/saison-1/la-chauve-souris/">La Chauve-souris</a><a href="https://france.bluey.tv/regarder/saison-1/le-week-end/">Le week-end</a><a href="https://france.bluey.tv/regarder/saison-1/la-terre-a-lombre/">La terre à l'ombre</a><a href="https://france.bluey.tv/regarder/saison-1/reste-en-lair/">Reste en l'air</a><a href="https://france.bluey.tv/regarder/saison-1/plats-a-emporter/">Plats à emporter</a><a href="https://france.bluey.tv/regarder/saison-1/a-cheval/">À cheval!</a><a href="https://france.bluey.tv/regarder/saison-1/les-espions/">Les Espions</a></div></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/activites/">Activités</a></h2><div class="bbc-sitemap__sub-items"><a href="https://france.bluey.tv/fabriquer/bluey-charades/">Bluey Charades</a><a href="https://france.bluey.tv/fabriquer/coloriages-bluey-et-ses-amis/">Coloriages Bluey et ses amis</a><a href="https://france.bluey.tv/fabriquer/carte-de-fete-des-peres/">CARTE DE FÊTE DES PÈRES</a><a href="https://france.bluey.tv/fabriquer/coloriage-pour-fenetre-maison-de-bluey/">Coloriage pour fenêtre Maison de Bluey</a><a href="https://france.bluey.tv/fabriquer/coloriage-maison-des-heeler/">Coloriage Maison des Heeler</a><a href="https://france.bluey.tv/fabriquer/coloriage-les-heeler-dansent/">Coloriage Les Heeler dansent</a><a href="https://france.bluey.tv/fabriquer/coloriage-salle-de-jeu/">Coloriage Salle de jeu</a></div></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/personnages/">Personnages</a></h2></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/jouer/">Jouer</a></h2><div class="bbc-sitemap__sub-items"><a href="https://france.bluey.tv/jouer/le-xylophone-magique/">Le Xylophone magique</a><a href="https://france.bluey.tv/jouer/reste-en-lair/">Reste en l'air</a></div></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/pour-les-grands/">Pour les grands</a></h2></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/pour-les-grands/boutique/">Boutique</a></h2><div class="bbc-sitemap__sub-items"><a href="https://france.bluey.tv/produits/la-famille-de-bluey-au-complet-4-figurines/">La famille de Bluey au complet (4 Figurines)</a><a href="https://france.bluey.tv/produits/les-amis-de-bluey-4-figurines/">Les amis de Bluey (4 Figurines)</a><a href="https://france.bluey.tv/produits/bluey-grande-peluche-jumbo/">Bluey - Grande Peluche Jumbo</a><a href="https://france.bluey.tv/produits/vehicule-familial-4x4-de-bluey/">Vehicule Familial 4x4 de Bluey</a><a href="https://france.bluey.tv/produits/bluey-two-pack-figurines/">Bluey (2 Figurines)</a><a href="https://france.bluey.tv/produits/bluey-or-bingo-petite-peluche/">Bluey or Bingo Petite Peluche</a><a href="https://france.bluey.tv/produits/ensembles-de-jeu-daventure-de-bluey/">Ensembles de jeu d'aventure de Bluey</a></div></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/pour-les-grands/blog/">Blog</a></h2><div class="bbc-sitemap__sub-items"><a href="https://france.bluey.tv/blog/bluey-saison-3-sur-disney/">Bluey Saison 3 sur Disney+</a></div></article>
-            <article class="bbc-sitemap__item">
-            <h2><a href="https://france.bluey.tv/politique-de-gestion-des-cookies/">Politique de gestion des cookies</a></h2></article></section>            
+        <section class="wp-block-bbc-shop" id="fe-wp-block-bbc-shop" data-props="{&quot;order&quot;:&quot;desc&quot;,&quot;countries&quot;:[&quot;FR&quot;],&quot;showRetailerLogos&quot;:false,&quot;title&quot;:&quot;Shop&quot;,&quot;postType&quot;:&quot;products&quot;,&quot;load&quot;:12,&quot;orderby&quot;:&quot;date&quot;,&quot;showCategories&quot;:true,&quot;showRetailers&quot;:true}" aria-label="Shop"></section>
+                
         </main><!-- /.site -->
         <footer class="bbc__footer bbc__footer--bluey" aria-label="Footer">
             <div class="bbc__footer--inner">
@@ -217,7 +195,7 @@ BBC is a trademark of the British Broadcasting Corporation. Logos &copy; 1996. <
 <a target="_blank" rel="noopener" href="https://www.bbcchannels.com/bbc-france/privacy">Protection des données personnelles</a>
 <a title="Politique de gestion des cookies" href="https://france.bluey.tv/politique-de-gestion-des-cookies/">Politique de gestion des cookies</a>
 <a target="_blank" rel="noopener" href="https://www.bbcstudios.com/">BBC Studios</a>
-<a href="https://france.bluey.tv/plan-du-site/" aria-current="page">Plan du site</a>
+<a href="https://france.bluey.tv/plan-du-site/">Plan du site</a>
 <a href="#cookie-preferences">Paramétrer les cookies</a>
 </nav>
                         
@@ -244,7 +222,8 @@ BBC is a trademark of the British Broadcasting Corporation. Logos &copy; 1996. <
                 <div class="sk-circle12 sk-child"></div>
             </div>
         </div>
-    <link rel='stylesheet' id='default-theme-css'  href='https://france.bluey.tv/wp-content/themes/bbc-bluey/assets/css/build/themes/default-theme.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='grownups-theme-css'  href='https://france.bluey.tv/wp-content/themes/bbc-bluey/assets/css/build/themes/grownups-theme.min.css' type='text/css' media='all' />
 <script type='text/javascript' src='https://france.bluey.tv/wp-content/plugins/guerrilla-block-library/build/billboard-frontend.js' id='gbl-billboard-frontend-js-js'></script>
+<script type='text/javascript' src='https://france.bluey.tv/wp-content/plugins/guerrilla-block-library/build/shop-frontend.js' id='gbl-shop-frontend-js-js'></script>
     </body>
 </html>
