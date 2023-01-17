@@ -25,9 +25,20 @@
     />
 
     <script data-cookieconsent="ignore">
-	(function(w,d,l){w[l]=w[l]||[];function gtag(){w[l].push(arguments)}
-	gtag("consent","default",{ad_storage:d,analytics_storage:d,wait_for_update:500,});
-	gtag("set", "ads_data_redaction", true);})(window,"denied","dataLayer");
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("consent", "default", {
+		ad_storage: "denied",
+		analytics_storage: "denied",
+		functionality_storage: "denied",
+		personalization_storage: "denied",
+		security_storage: "granted",
+		wait_for_update: 500,
+	});
+	gtag("set", "ads_data_redaction", true);
+	gtag("set", "url_passthrough", true);
 </script>
 <script type="text/javascript"
 		id="Cookiebot"
@@ -36,7 +47,7 @@
 							async	></script>
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-	<!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Chest - Bluey Official Website</title>
 	<meta name="description" content="Dad tries to teach Bluey how to play chess, but Mum thinks she is still too young. When Bingo joins in, the kids make up their own rules, but they still can’t beat Dad." />
 	<link rel="canonical" href="https://www.bluey.tv/watch/season-3/chest/" />
@@ -83,7 +94,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/objectfit-polyfill.js' id='object-fit-js'></script>
 <script type='text/javascript' id='global-js-extra'>
 /* <![CDATA[ */
-var global = {"site_url":"https:\/\/www.bluey.tv","theme_url":"https:\/\/www.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/www.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"ac6d70de7e","rest_nonce":"477af5f6bd"};
+var global = {"site_url":"https:\/\/www.bluey.tv","theme_url":"https:\/\/www.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/www.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"2639aef5c8","rest_nonce":"4f932fa9b6"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/theme-global.min.js' id='global-js'></script>
@@ -126,9 +137,7 @@ var global = {"site_url":"https:\/\/www.bluey.tv","theme_url":"https:\/\/www.blu
             * © 2022 MyFonts Inc
             */
         -->
-    
-                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"1081794",ustr:"",originlat:"0",clientrtt:"11",ghostip:"2.16.167.15",ipv6:false,pct:"10",clientip:"2.31.165.231",requestid:"c019cdd",region:"30561",protocol:"",blver:14,akM:"dscj",akN:"ae",akTT:"O",akTX:"1",akTI:"c019cdd",ai:"681515",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
-                    </head>
+    </head>
 
 <body class="videos-template-default single single-videos postid-6853 wp-embed-responsive videos-chest default-theme" data-country="GB" data-language-code="en_AU"
     data-post-id="6853" data-shop-tax="" >
