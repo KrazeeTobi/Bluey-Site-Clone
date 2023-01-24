@@ -17,9 +17,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="google-site-verification" content="X1KWNNI1gjZikuBC70eXoyJgZI1wq7_K4sGc2fT36wc" />
     <script data-cookieconsent="ignore">
-	(function(w,d,l){w[l]=w[l]||[];function gtag(){w[l].push(arguments)}
-	gtag("consent","default",{ad_storage:d,analytics_storage:d,wait_for_update:500,});
-	gtag("set", "ads_data_redaction", true);})(window,"denied","dataLayer");
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("consent", "default", {
+		ad_storage: "denied",
+		analytics_storage: "denied",
+		functionality_storage: "denied",
+		personalization_storage: "denied",
+		security_storage: "granted",
+		wait_for_update: 500,
+	});
+	gtag("set", "ads_data_redaction", true);
+	gtag("set", "url_passthrough", true);
 </script>
 <script type="text/javascript"
 		id="Cookiebot"
@@ -28,7 +39,7 @@
 							async	></script>
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-	<!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>Thank you - Official Bluey Events Website</title>
 	<meta name="description" content="Due to announcements by the Australian Government related to COVID-19, Bluey’s Big Play’s Australian Tour has been postponed. Find out new dates below." />
 	<link rel="canonical" href="https://events.bluey.tv/tour-postponed/" />
@@ -76,7 +87,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://events.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/headroom.js' id='headroom-js'></script>
 <script type='text/javascript' id='global-js-extra'>
 /* <![CDATA[ */
-var global = {"site_url":"https:\/\/events.bluey.tv","theme_url":"https:\/\/events.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/events.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"330b757617","rest_nonce":"229884cd1c"};
+var global = {"site_url":"https:\/\/events.bluey.tv","theme_url":"https:\/\/events.bluey.tv\/wp-content\/themes\/bbc-bluey","ajax_url":"https:\/\/events.bluey.tv\/wp-admin\/admin-ajax.php","nonce":"e1660b8abc","rest_nonce":"d1ca1ce246"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://events.bluey.tv/wp-content/themes/bbc-bluey/assets/js/build/theme-global.min.js' id='global-js'></script>
@@ -150,6 +161,7 @@ var global = {"site_url":"https:\/\/events.bluey.tv","theme_url":"https:\/\/even
         <audio class="gbl-animation__audio" preload="auto">
             <source src="#"/>
         </audio>
+        <div class="sound-file"></div>
     </div></header>
 
 
